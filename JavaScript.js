@@ -17,7 +17,7 @@ var images = ["Frylock.png", "Meatwad.jpg", "Shake.png", "Carl.png"];
 var titles = ["Frylock","Meatwad","Master Shake","Carl"];
 var descriptions = ["Frylock is one of the four main characters on Aqua Teen Hunger Force. He is the most rational and intelligent member of the Aqua Teens. He is also considered to be a scientist; although, some of his motives and means of doing scientific research are a bit shady at times.","Meatwad is one of the four main characters in Aqua Teen Hunger Force. His low intelligence, naivety, trusting nature, and sexual frustration often cause him to be abused and manipulated by others, most notably Master Shake and the Mooninites.","Master Shake (briefly known as Mocha Shake), usually referred to as simply Shake, is one of the four main characters on Aqua Teen Hunger Force. The self-proclaimed leader of the Aqua Teens, Shake is the most erratic, selfish, and idiotic of the group, delivering misfortune to those around him (most especially his next-door neighbor Carl) through his extreme stupidity and naivety frequently causes his various schemes to backfire on him.","Carl Brutananadilewski is one of the four protagonists in Aqua Teen Hunger Force, alongside Master Shake, Frylock, and Meatwad. He is the unfortunate neighbor of the Aqua Teens, a position that has caused him massive, untold amounts of grief over the course of several years."];
 
-if(p.substring(pl - 13, pl) == "Project4.html"){
+if(p.substring(pl - 13, pl) == "Project6.html"){
   createHomePage();
 }
 
@@ -32,7 +32,7 @@ function createHomePage(){
   var headerImg = document.createElement("img");
   setAttributes(headerImg, {"class": "headerImg", "src": "carlhome.png"});
   var headerTitle = document.createElement("h1");
-  headerTitle.innerHTML = "Erich Henley's Website - Project 4";
+  headerTitle.innerHTML = "Erich Henley's Website - Project 6";
   headerDiv.appendChild(headerImg);
   headerDiv.appendChild(headerTitle);
 
